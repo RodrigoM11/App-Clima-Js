@@ -66,7 +66,7 @@ body {
 .header_output {
 
     background-color: #100E1D;
-    padding: 20px;
+    padding: 15px;
 }
 
 .header_output_button {
@@ -105,7 +105,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;;
     overflow-x: hidden;
     position: relative;
 }
@@ -226,6 +226,7 @@ font-size: 30px;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top: 12px;
 }
 
 .weather_country-image {
@@ -253,7 +254,7 @@ font-size: 30px;
 display: flex;
 justify-content: center;
 gap: 0 10px;
-padding-top: 30px;
+/* padding-top: 6px; */
 }
 
 
@@ -292,7 +293,7 @@ gap: 0 10px;
 
 .title {
     font-size: 18px;
-    padding-top: 80px;  
+    padding-top: 20px;  
     margin-left: 135px; 
 }
 
@@ -393,7 +394,7 @@ font-size: 30px;
     flex-direction: column;
     align-items: center;
     background-color: #1E213A;
-
+    margin-top: 10px;
 }
 
 .footer_output {
