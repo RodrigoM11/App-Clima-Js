@@ -1,92 +1,33 @@
-<!-- Please update value in the {}  -->
+# App-Clima-Js
 
-<h1 align="center">{Your project name}</h1>
-
-<div align="center">
-   Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
-</div>
-
-<div align="center">
-  <h3>
-    <a href="https://{your-demo-link.your-domain}">
-      Demo
-    </a>
-    <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
-      Solution
-    </a>
-    <span> | </span>
-    <a href="https://devchallenges.io/challenges/mM1UIenRhK808W8qmLWv">
-      Challenge
-    </a>
-  </h3>
-</div>
-
-<!-- TABLE OF CONTENTS -->
-
-## Table of Contents
-
-- [Overview](#overview)
-  - [Built With](#built-with)
-- [Features](#features)
-- [How to use](#how-to-use)
-- [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
-
-<!-- OVERVIEW -->
-
-## Overview
-
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
-
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
-
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
-
-### Built With
-
-<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
-
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+This App allows users to view the current weather conditions and forecast at their computer's location. Unlike the **App-Clima-React** project, this version is built entirely using **JavaScript** and **HTML**, without the need for user login.
 
 ## Features
 
-<!-- List the features of your application or follow the template. Don't share the figma file here :) -->
+- **Current Location Weather**: Automatically detects the user's location and provides real-time weather data.
+- **Minimal Setup**: No need for logging in or creating accounts.
+- **Live Server Integration**: Uses the **live-server** npm package for local development and quick deployment.
+- **navigator.geolocation**: obtained coordinstes latitude and longitude.
+- **Api weather condition**: https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&exclude=hourly,minutely,alerts&appid=${apiKey}&units=${unit}.
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/mM1UIenRhK808W8qmLWv) was to build an application to complete the given user stories.
+## Technologies Used
 
-## How To Use
+- **HTML**: Structuring the content of the application.
+- **CSS**: Basic styling and responsive design.
+- **JavaScript**: Core logic to fetch and display weather data.
 
-<!-- Example: -->
+### Prerequisites
 
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+Make sure you have **Node.js** installed on your machine. This app uses **live-server** for easy local deployment.
 
-```bash
-# Clone this repository
-$ git clone https://github.com/your-user-name/your-project-name
+### Installation
 
-# Install dependencies
-$ npm install
+1. Clone the repository:
 
-# Run the app
-$ npm start
-```
+   
+bash
+   git clone https://github.com/RodrigoM11/App-Clima-Js.git
 
-## Acknowledgements
+### Operation 
 
-<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For example: -->
-
-- [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
-- [Node.js](https://nodejs.org/)
-- [Marked - a markdown parser](https://github.com/chjj/marked)
-
-## Contact
-
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+Clone the repository, with the terminal in the project folder, execute live-server and it will start working
